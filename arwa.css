@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+}
+
+.progress {
+  width: 0;
+  height: 50px;
+  background-color: lightblue;
+  transition: width .2s;
+}
+
+.progress__actions {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: fit-content; 
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.numberInput {
+  margin-right: 5px;
+  padding: 5px 8px;
+  background-color: #fff;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-family: Arial;
+  font-size: 14px;
+}
